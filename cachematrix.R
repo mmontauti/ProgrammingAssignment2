@@ -1,5 +1,5 @@
 ## makeCacheMatrix function creates a matrix that contains the functions:
-## set, get, set inverse, get inverse
+## set, get, set inverse and get inverse
 
 makeCacheMatrix <- function(x = matrix()) 
 {
@@ -19,8 +19,7 @@ makeCacheMatrix <- function(x = matrix())
         getinverse = getinverse)
 }
 
-## cacheSolve calculates the inverse of the matrix checking if it was calculated before, 
-## if its calculated brings the result, if not it proceeds.
+## cacheSolve calculates the inverse of the matrix checking if it was calculated before, if its calculated brings the result, if not it proceeds.
 
 
 cacheSolve <- function(x, ...) 
